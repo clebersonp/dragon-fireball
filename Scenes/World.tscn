@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Mini Scenes/Green_Dragon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Mini Scenes/Red_Dragon.tscn" type="PackedScene" id=2]
+
+[node name="World" type="Node2D"]
+
+[node name="Green Dragon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 78.7585, 316.466 )
+
+[node name="Red Dragon" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1098.85, 110.036 )
+
+[node name="Red Dragon2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 845.618, 500.437 )
+
+[node name="Red Dragon4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1074.73, 343.673 )
+
+[node name="Red Dragon3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 851.647, 259.262 )
